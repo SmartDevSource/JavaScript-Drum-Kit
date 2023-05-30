@@ -1,0 +1,37 @@
+<div id = "keys">
+
+  <div class = "keyBox" id = "a">
+    <span class = "keyLetter">A</span>
+    <span class = "sound-text">Snare1</span>
+  <audio id="snare1">
+    <source src="<%= asset_path('audios/snare1.wav') %>" type="audio/wav">
+  </audio>
+  </div>
+
+  <div class = "keyBox" id = "z">
+    <span class = "keyLetter">Z</span>
+    <span class = "sound-text">Snare2</span>
+  <audio id="snare2">
+    <source src="<%= asset_path('audios/snare2.wav') %>" type="audio/wav">
+  </audio>
+  </div>
+
+  <div class = "keyBox" id = "e">
+    <span class = "keyLetter">E</span>
+    <span class = "sound-text">Cymbal1</span>
+  <audio id="cymbal1">
+    <source src="<%= asset_path('audios/cymbal1.wav') %>" type="audio/wav">
+  </audio>
+  </div>
+
+  <div class = "keyBox" id = "r">
+    <span class = "keyLetter">R</span>
+    <span class = "sound-text">Scratch</span>
+  <audio id="scratch">
+    <source src="<%= asset_path('audios/scratch.wav') %>" type="audio/wav">
+  </audio>
+  </div>
+
+</div>
+
+<%=javascript_include_tag 'soundboard' %>
